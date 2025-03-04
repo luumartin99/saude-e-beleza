@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('d43c25f6-6430-4420-85f2-931294349bdf.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .left, .right {
+            width: 45%; /* Cada grupo terá 45% da largura da tela */
+        }
+
+        .left {
+            /* Alinha os botões à esquerda normalmente */
+        }
+
+        .right {
+            /* Para empurrar os botões para a direita */
+            margin-left: 100px; /* Aumentei o valor para empurrar mais para a direita */
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            background-color: #3A63DF; /* Azul claro*/
+            color: white;
+            font-size: 18px;
+            text-align: left;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #E66A00; /* Laranja escuro */
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 60px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 40px;
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <a href="https://shopee.com.br/" class="button">Produto 1</a>
+            <a href="https://mercadolivre.com.br/" class="button">Produto 2</a>
+            <a href="https://amazon.com.br/" class="button">Produto 3</a>
+            <a href="https://amazon.com.br/" class="button">Produto 4</a>
+            <a href="https://amazon.com.br/" class="button">Produto 5</a>
+            <a href="https://amazon.com.br/" class="button">Produto 6</a>
+            <a href="https://amazon.com.br/" class="button">Produto 7</a>
+            <a href="https://amazon.com.br/" class="button">Produto 8</a>
+            <a href="https://amazon.com.br/" class="button">Produto 9</a>
+            <a href="https://amazon.com.br/" class="button">Produto 10</a>
+        </div>
+        
+        <div class="right">
+            <a href="https://amazon.com.br/" class="button">Produto 11</a>
+            <a href="https://amazon.com.br/" class="button">Produto 12</a>
+            <a href="https://amazon.com.br/" class="button">Produto 13</a>
+            <a href="https://amazon.com.br/" class="button">Produto 14</a>
+            <a href="https://amazon.com.br/" class="button">Produto 15</a>
+            <a href="https://amazon.com.br/" class="button">Produto 16</a>
+            <a href="https://amazon.com.br/" class="button">Produto 17</a>
+            <a href="https://amazon.com.br/" class="button">Produto 18</a>
+            <a href="https://amazon.com.br/" class="button">Produto 19</a>
+            <a href="https://amazon.com.br/" class="button">Produto 20</a>
+        </div>
+    </div>
+</body>
+</html>
